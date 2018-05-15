@@ -69,4 +69,7 @@ Finally, there is a toggle variable `GAIN`, that decides what is the value of th
 GAIN=1 generates what is presented in Figure 7, with SCENARIO=4.
 
 ## Contacts
-* [Alessandro Papadopoulos](mailto:alessandro.papadopoulos@mdh.se)
+* Alessandro Papadopoulos (name.surname at mdh dot se)
+* Enrico Bini
+* Sanjoy Baruah
+* Alan Burns
