@@ -4,6 +4,16 @@ This code refers to the artifact developed in support of the paper
 >Alessandro Vittorio Papadopoulos, Enrico Bini, Sanjoy Baruah, and Alan Burns, ``AdaptMC: Control Theory for Mixed-Criticality Systems'', in Proceedings of the 30th Euromicro Conference on Real-Time Systems (ECRTS 2018)
 
 
+## Requirements
+We implemented the results presented in the paper by using Matlab, using mostly basic functions, and few functions included in the Control System Toolbox. We used Wolfram Mathematica to symbolically analyze, and compute the stability region presented in Figure 2. In particular, the following are the main requirements:
+
+* Matlab R2016a or higher: We tested the codes on Matlab R2016a, R2016b, R2017a, but the lower is not confirmed.
+* Control System Toolbox of Matlab.
+
+* For Figure 2, the symbolic expressions are obtained in Matlab, but the regions have been obtained with Wolfram Mathematica. In order to reproduce such graph the following **alternatives** can be used:
+  * Wolfram Mathamatica 11 (license needed).
+  * [Wolfram CDF player 11.3](https://www.wolfram.com/cdf-player/), no need of any license.
+
 ## Generate Figure 2
 The generation of Figure 2 requires the execution of the following code, contained in the `stability.m` file. 
 
