@@ -1,4 +1,8 @@
 # AdaptMC
+This code refers to the artifact developed in support of the paper
+
+>Alessandro Vittorio Papadopoulos, Enrico Bini, Sanjoy Baruah, and Alan Burns, ``AdaptMC: Control Theory for Mixed-Criticality Systems'', in Proceedings of the 30th Euromicro Conference on Real-Time Systems (ECRTS 2018)
+
 
 ## Generate Figure 2
 The generation of Figure 2 requires the execution of the following code, contained in the `stability.m` file. 
